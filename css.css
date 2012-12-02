@@ -1,0 +1,155 @@
+body {background: #3A424D;}
+
+#bike {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 316px;
+  height: 206px;
+  background: transparent;
+  margin: -103px 0 0 -163px;
+}
+
+#rear-wheel {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: #3A424D;
+  height: 120px;
+  width: 120px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border: 4px solid white;
+}
+
+#front-wheel {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background: #3A424D;
+  height: 120px;
+  width: 120px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border: 4px solid white;
+}
+
+#front-hub {
+  position: absolute;
+  right: 56px;
+  bottom: 56px;
+  background: white;
+  height: 16px;
+  width: 16px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+
+#rear-hub {
+  position: absolute;
+  left: 56px;
+  bottom: 56px;
+  background: white;
+  height: 16px;
+  width: 16px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+
+#chainring {
+  position: absolute;
+  left: 118px;
+  bottom: 32px;
+  background: transparent;
+  height: 36px;
+  width: 36px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border: 2px solid white;
+}
+
+#chainstay {
+  position: absolute;
+  left: 64px;
+  bottom: 56px;
+  background: white;
+  height: 4px;
+  width: 75px;
+
+  -webkit-transform: rotate(10deg);
+}
+
+#downtube {
+  position: absolute;
+  left: 119px;
+  bottom: 95px;
+  background: white;
+  height: 4px;
+  width: 132px;
+
+  -webkit-transform: rotate(-44deg);
+}
+
+#seattube {
+  position: absolute;
+  left: 64px;
+  bottom: 108px;
+  background: white;
+  height: 4px;
+  width: 117px;
+
+  -webkit-transform: rotate(-105deg);
+}
+
+#seatstay {
+  position: absolute;
+  left: 32px;
+  bottom: 113px;
+  background: white;
+  height: 4px;
+  width: 109px;
+
+  -webkit-transform: rotate(-67deg);
+}
+
+#toptube {
+  position: absolute;
+  left: 106px;
+  bottom: 163px;
+  background: white;
+  height: 4px;
+  width: 120px;
+}
+
+#headtube {
+  position: absolute;
+  left: 215px;
+  bottom: 151px;
+  background: white;
+  height: 4px;
+  width: 28px;
+
+  -webkit-transform: rotate(-105deg);
+}
+
+#seatpost {
+  position: absolute;
+  left: 93px;
+  bottom: 174px;
+  background: white;
+  height: 3px;
+  width: 24px;
+
+  -webkit-transform: rotate(-105deg);
+}
+
+#fork-top {
+  position: absolute;
+  left: 201px;
+  bottom: 103px;
+  background: white;
+  height: 3px;
+  width: 82px;
+
+  -webkit-transform: rotate(-105deg);
+}
